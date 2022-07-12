@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 100%;
+    height: 100vh;
+}
+.blue {
+    background: #75aadb;
+    width: 100%;
+    height: 33.33vh;
+}
+.white {
+    background: #fff;
+    height: 33.33vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.white img {
+    height: 24vh;
+}
+.white h3 {
+    position: relative;
+    top: 44%;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: monospace;
+}
+.flag1 {
+    display: none;
+    background: #006747;
+    max-width: 100%;
+    height: 100vh;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+}
+.red {
+    width: 30vh;
+    height: 30vh;
+    background: #da291c;
+    border-radius: 50%;
+}
+
+.button button {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+.button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
